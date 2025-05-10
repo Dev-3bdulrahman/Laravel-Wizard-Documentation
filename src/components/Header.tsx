@@ -34,9 +34,9 @@ export function Header() {
           <Link to="/" className="font-bold text-xl">Laravel Wizard</Link>
         </div>
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#features" className="text-sm font-medium transition-colors hover:text-primary">
+          <Link to="/" className="text-sm font-medium transition-colors hover:text-primary">
             Features
-          </a>
+          </Link>
           <Link to="/installation" className="text-sm font-medium transition-colors hover:text-primary">
             Installation
           </Link>
